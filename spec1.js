@@ -8,7 +8,7 @@ describe('Sign in page', function() {
         //CLICK SIGN IN BUTTON
         element(by.css('.login')).click();
         //Enter mail to register
-        element(by.css('.account_input')).sendKeys('faatimaja+test1@gmail.com');
+        element(by.css('.account_input')).sendKeys('faatimaja+test01@gmail.com');
         element(by.buttonText('Create an account')).click().then(function () {
             browser.sleep(3000);
         });
@@ -49,7 +49,7 @@ describe('Sign in page', function() {
         element(by.css('.login')).click().then(function () {
             browser.sleep(3000);
         });
-        element(by.id('email')).sendKeys('faatimaja+test1@gmail.com');
+        element(by.id('email')).sendKeys('faatimaja+test01@gmail.com');
         element(by.id('passwd')).sendKeys('test12345');
         element(by.css('.icon-lock')).click().then(function () {
             browser.sleep(3000);
