@@ -1,14 +1,14 @@
-Automation tests are done using Protractor with Jasmine framework. In oreder to run those test cases there should be done some actions:
+Automation tests are done using Protractor with Jasmine framework. In oreder to run those test cases you should make some actions:
 
 1. If Node.js is not installed on your machine, you should install it from the internet
 
 2. You should set Node in your System variables 
 
-3. To install Protractor in the command prompt or in the terminal write: npm install -g protractor
+3. To install Protractor write in the command prompt or in the terminal: npm install -g protractor
 
-4. Start selenium server to help you connect your protracotr commands to your browser. Since the webdriver must be compatibile to the crhome version 
-you use, you need to write the crhome version. Terminal must be opened so that Protractor can work. Before starting the webdriver manager, you need to 
-do update. So two command are:
+4. Start selenium server to help you connect your protracotr commands to your browser. Since the webdriver must be compatibile to the chrome version 
+you use, you need to write the chrome version. Terminal must be opened so that Protractor can work. Before starting the webdriver manager, you need to 
+do update. So two commands are:
 webdriver-manager update --versions.chrome=<put here current version of your chrome>
 webdriver-manager start --versions.chrome=<put here current version of your chrome>
 
